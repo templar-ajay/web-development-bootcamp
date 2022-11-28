@@ -1,0 +1,22 @@
+body {
+  background-color: #fefcf3;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+hr {
+  background-color: transparent;
+  border-color: grey;
+  border-width: 10px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+}
+
+h1,
+h3 {
+  color: #ef9a53;
+}
