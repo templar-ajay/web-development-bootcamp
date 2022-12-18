@@ -1,3 +1,165 @@
 body {
-  background-color: blue;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3,
+a {
+  color: #11999e;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+.copyright {
+  font-size: 0.75rem;
+  padding: 10px auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15em;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 2.5em;
+  right: 15em;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+/* .skills h3,
+.skills p {
+  text-align: left;
+} */
+
+#js-skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+#ux-skill-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* To clear the float property for the paragraph */
+/* .js-p {
+  clear: left;
+}
+.ux-p {
+  clear: right;
+} */
+
+.profile img {
+  width: 20%;
+}
+
+.profile-desc {
+  width: 30%;
+  margin: auto;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact-me {
+  height: 300px;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  margin: 50px -80px;
+  background: #69bfbf;
+  background-image: -webkit-linear-gradient(top, #69bfbf, #66bfbf);
+  background-image: -moz-linear-gradient(top, #69bfbf, #66bfbf);
+  background-image: -ms-linear-gradient(top, #69bfbf, #66bfbf);
+  background-image: -o-linear-gradient(top, #69bfbf, #66bfbf);
+  background-image: linear-gradient(to bottom, #69bfbf, #66bfbf);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11999e;
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  margin-bottom: 0;
+  background-color: #66bfbf;
+  line-height: 2;
+  padding: 40px;
+  padding-bottom: 20px;
+  color: #eaf6f6;
+}
+.footer-link {
+  text-decoration: none;
+  margin: auto 20px;
+}
+
+p {
+  line-height: 2;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 20px;
 }
