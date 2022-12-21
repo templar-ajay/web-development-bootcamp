@@ -1,33 +1,44 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-#title {
-  color: #fff;
-  background-color: #ff4c68;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold, sans-serif";
 }
 
-.container-fluid {
-  padding: 3% 15%;
+p {
+  color: #8f8f8f;
 }
 
-h1 {
-  font-family: "Montserrat-Black, sans-serif";
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
-h2 {
-  font-family: "Montserrat-Bold";
+
+.section-heading {
   font-size: 3rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat-Bold";
+/* sections  */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
 }
-p {
-  color: #8f8f8f;
+.white-section {
+  background-color: #fff;
+}
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15%;
 }
 
 .navbar {
@@ -61,18 +72,22 @@ p {
 
   transform: rotate(25deg);
   position: absolute;
+  padding-left: 10px;
   right: 30%;
 }
 
 /* features section */
 #features {
   padding: 7% 15%;
-  background-color: white;
   position: relative;
 }
+
 .feature-box {
-  text-align: center;
   padding: 2%;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
 }
 
 icon {
@@ -85,15 +100,18 @@ icon:hover {
 /* testimonial section  */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .carousel-item {
@@ -104,7 +122,6 @@ icon:hover {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -121,6 +138,32 @@ icon:hover {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* cta  */
+#cta {
+  padding: 7% 15%;
+}
+
+/* footer section  */
+
+#footer {
+  padding: 7% 15% 0;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+  margin: 20px 10px;
+}
+
+#footer p {
+  color: #8f8f8f;
 }
 
 @media (max-width: 1140px) {

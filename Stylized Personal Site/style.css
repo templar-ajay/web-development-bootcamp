@@ -99,6 +99,7 @@ h2 {
 
 .profile img {
   width: 20%;
+  border-radius: 100%;
 }
 
 .profile-desc {
