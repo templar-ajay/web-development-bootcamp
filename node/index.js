@@ -1,5 +1,5 @@
-const superVillains = require("superVillains")
+const superVillains = require("superVillains");
 
-const newSuperVillain = superVillains.random()
+const newSuperVillain = superVillains.random();
 
-console.log(newSuperVillain)
+console.log(newSuperVillain);
